@@ -33,5 +33,4 @@ public class ApiController {
     public List<String> getTopRanks() {
         return rankingService.getTopRank(3);
     }
-
 }
